@@ -14,3 +14,7 @@ h1, h2 {
 div.main {
    margin: 0 200px 0 200px; 
 }
+
+div.items {
+    text-align: center;
+}
