@@ -6,7 +6,7 @@ from django.template import loader
 def index(request):
     produtos = Produto.objects.all()
     context = {
-        'curso': 'Django',
+        'subtitle': 'Compre algum produto!',
         'produtos': produtos
 
     }
